@@ -1,0 +1,18 @@
+The Factory Method pattern is a creational design pattern that provides an interface for creating objects
+in a superclass, but allows subclasses to alter the type of objects that will be created. In other words,
+it allows for the creation of objects without specifying the exact class of object that will be created.
+
+The Factory Method pattern is useful when you want to delegate object creation to subclasses, while still
+ensuring that the superclass controls the object creation process. This makes it easy to add new types of
+objects to the system, without having to modify existing code.
+
+when there is any requirement where we have to decide the call of a class at runtime in this situation we follow
+this design.
+
+
+---------steps to be followed--------------
+1. create a folder for particular task
+2. create interface that have some required methods
+3. create impl folder and make implementation classes on the basis of requirement
+4. create factory folder and create a class which decide or return the object/instance of class that called at
+   runtime.

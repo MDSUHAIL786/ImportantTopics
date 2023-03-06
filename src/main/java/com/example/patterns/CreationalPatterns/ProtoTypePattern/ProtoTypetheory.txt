@@ -1,0 +1,27 @@
+it is a type of creational pattern that deal with creation of object.
+when there is requirement to create object frequently and object creation is time consuming, and costly
+operation
+
+It allows you to create copies of existing objects without making your code dependent on their concrete
+classes. It involves creating a new object by duplicating an existing one and modifying it according
+to the needs. This pattern is used when the creation of an object is costly or complex, and when the
+existing objects can be used as a prototype to create new ones.
+
+This prototype object serves as a blueprint for the creation of new objects, and it contains the basic
+structure and behavior of the object. The new object is created by cloning the prototype object and modifying
+it as necessary.
+
+With the help of Prototype Design Patterns, we copy new objects from already existing classes and modify these objects
+according to our new requirements.
+
+Although, it depends on our design and requirement whether to use a shallow or deep copy of the existing objects.
+Shallow Copy - In shallow copy, we only clone the parent object and not its containing objects.
+               In shallow copy, we copy references of the Original object, and hence if we make any changes in one of the objects,
+               those changes get reflected in other objects as well.
+
+Deep Copy - In a deep copy, we clone the parent object as well as its containing objects.
+            In a deep copy, we copy the original object with its values so after copying, both the objects are independent of each other,
+             and hence, if we make any changes in one object, that change does not get reflected in the other object
+
+The base concept behind this is to replicate an existing object instead of creating a new object instance from scratch
+which may have some complex operations or business logic.

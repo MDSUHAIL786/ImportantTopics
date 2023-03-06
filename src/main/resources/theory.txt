@@ -1,0 +1,40 @@
+(Gang of Four) GoF Design Patterns are divided into three categories:
+
+1.Creational: The design patterns that deal with the creation of an object.
+
+      ->Singleton Pattern
+      ->Factory Method Pattern
+      ->Abstract Factory Pattern
+      ->Builder Pattern
+      ->Prototype Pattern
+
+2.Structural: The design patterns in this category deals with the class structure such as Inheritance and Composition.
+              Structural design patterns deal with object composition, trying to define how objects and classes
+              can be combined to form larger structures.
+
+              The following are some of the sub-patterns of structural design patterns:
+              ->Adapter Pattern
+              ->Bridge Pattern
+              ->Composite Pattern
+              ->Decorator Pattern
+              ->Facade Pattern
+              ->Flyweight Pattern
+              ->Proxy Pattern
+
+3.Behavioral: This type of design patterns provide solution for the better interaction between objects, how to provide lose coupling, and
+              flexibility to extend easily in future.
+              Behavioral design patterns deal with object interactions, trying to define how objects and classes can communicate with each
+              other to form larger systems.
+        The following are some of the sub-patterns of behavioral design patterns:
+        ->Chain of Responsibility Pattern
+        ->Command Pattern
+        ->Interpreter Pattern
+        ->Iterator Pattern
+        ->Mediator Pattern
+        ->Memento Pattern
+        ->Observer Pattern
+        ->State Pattern
+        ->Strategy Pattern
+        ->Template Method Pattern
+        ->Visitor Pattern
+

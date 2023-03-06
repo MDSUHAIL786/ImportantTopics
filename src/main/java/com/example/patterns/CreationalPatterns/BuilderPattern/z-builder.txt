@@ -1,0 +1,15 @@
+The Builder Pattern is a design pattern in software development that allows you to create complex
+objects step-by-step.
+
+The builder pattern involves creating a builder class that has methods for setting different properties
+of an object. You can then chain these methods together to set multiple properties at once. Once you've
+set all the properties, you can call a build() method to create the final object.
+
+The benefit of using the builder pattern is that it allows you to create complex objects without having
+to pass a large number of arguments to a constructor and can set any manner. Instead, you can use a fluent API to set properties
+in a more readable and understandable way.
+
+
+-----------Note------------
+there are many ways to use this pattern
+see the Ways

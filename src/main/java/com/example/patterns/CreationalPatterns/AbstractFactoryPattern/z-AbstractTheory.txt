@@ -1,0 +1,17 @@
+this is creational design pattern which is similar to factory method only difference is that it is
+factory of factories.
+
+means like factory method return object of class on the basis of condition similarly abstract factory
+pattern return object of factory on the basis of condition.
+
+let's understand by example:
+
+suppose we have lots of cars like BMW, AUDI, Swift, Hyundai, Alto, Bugatti etc.
+Now we need to make object of these cars on basis of condition.
+1.all these cars classes implements a vehicle interface
+
+2.In factory folder/directory we have two factories classes one is return luxury car object like BMW,
+Audi etc. And other is return ordinary car object like swift, alto, hyundai etc
+
+3.In abstractFactory folder we have a class that return the object of factories created in step-2 on
+the basis of condition.
