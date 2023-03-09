@@ -1,0 +1,4 @@
+DAS : Data Access Service
+
+Note: whenever two entities are related to each other we can make an
+      interface and then their implementation in impl folder/directory as given example
