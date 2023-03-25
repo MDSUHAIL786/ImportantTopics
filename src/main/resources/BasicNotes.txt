@@ -1,0 +1,19 @@
+
+1.A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+  The class from which the subclass is derived is called a superclass (also a base class or a parent class).
+
+2."Has-a" relationship:
+
+  Also known as composition or aggregation.
+  It refers to the relationship between two classes where one class contains an instance of the other class as a member variable.
+  The class that contains the instance is responsible for creating and destroying the contained object.
+  Example: A car has an engine, a book has pages, a university has departments.
+
+  "Is-a" relationship:
+
+  Also known as inheritance.
+  It refers to the relationship between two classes where one class is a specialized version of the other class.
+  The specialized version inherits all the attributes and behaviors of the base class and can also add new attributes and behaviors of its own.
+  Example: A sedan is a type of car, a novel is a type of book, a biology department is a type of university department.
+
+2.

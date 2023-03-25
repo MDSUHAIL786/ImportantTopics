@@ -1,0 +1,4 @@
+
+The Strategy design pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable at runtime.
+
+Example: https://www.canva.com/design/DAFeLnbJJUA/q5WJ-w1fjc0IzJNv6DkOCw/edit?utm_content=DAFeLnbJJUA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
