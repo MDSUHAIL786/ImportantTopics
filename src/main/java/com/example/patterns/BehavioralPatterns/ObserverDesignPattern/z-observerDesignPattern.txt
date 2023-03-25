@@ -1,0 +1,18 @@
+The Observer design pattern is a behavioral design pattern that allows an object (called the "subject") to notify other objects (called "observers") when its state changes.
+Here are some key characteristics of the pattern:
+
+The pattern involves creating two types of objects: a "subject" object and one or more "observer" objects.
+The "subject" object maintains a list of its "observers" and notifies them automatically when its state changes.
+The "observers" register themselves with the "subject" object to receive notifications.
+This allows the "observers" to automatically update their own state or behavior when the "subject" object changes.
+
+
+
+<x>.png explanation ------
+
+1. this pattern has 2 main object observable and observer, can many observable and many observer. So whenever there is change in state of observable it notify/update all observer
+   whose observe observable about state change.
+
+2. interfaces there one-to-many relationship between observable and observer means one observable can observe by many observers.
+
+3. concrete classes for interfaces.
