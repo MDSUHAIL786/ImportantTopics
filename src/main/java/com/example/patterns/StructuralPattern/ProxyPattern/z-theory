@@ -1,0 +1,18 @@
+tutorial: https://youtu.be/9MxHKlVc6ZM
+sourceRepo: https://github.com/MDSUHAIL786/ProxyDesignPattern
+
+
+
+The Proxy Design Pattern is a structural design pattern that provides a surrogate or placeholder object for another object to control its access.
+ In this pattern, the proxy class acts as an intermediary between the client and the real object, and forwards requests from the client to the real object while performing
+ additional actions before or after the request.
+
+ The benefits of using the Proxy Design Pattern include:
+
+ It provides a level of indirection between the client and the real object, which can help to improve performance and reduce memory usage.
+
+ It allows you to add functionality to an object without modifying its existing code.
+
+ It allows you to control access to an object by restricting or granting access to certain clients.
+
+ It allows you to create objects on demand, which can help to reduce startup time and improve overall performance.
