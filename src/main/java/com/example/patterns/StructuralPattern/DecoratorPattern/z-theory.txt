@@ -1,0 +1,30 @@
+tutorial : https://youtu.be/w6a9MXUwcfY
+sourcecodeRepo: https://github.com/MDSUHAIL786/decoratorPattern
+
+The Decorator Design Pattern is a structural design pattern that allows you to dynamically add new behavior or functionality to an object without affecting its original
+implementation. This is achieved by creating a decorator class that wraps around the original object and provides additional functionality at runtime.
+
+In this pattern, both the decorator and the original object implement the same interface, so the client code can use either one interchangeably. The decorator class maintains
+ a reference to the original object and delegates all calls to it. In addition, the decorator adds its own behavior before or after delegating the call to the original object.
+
+The benefits of using the Decorator Design Pattern include:
+
+It allows you to add functionality to an object without modifying its existing code.
+It follows the open-closed principle, which means that the code is open for extension but closed for modification.
+It provides greater flexibility than subclassing because you can add functionality at runtime instead of compile time.
+It allows for multiple decorators to be applied to an object, providing a flexible way to combine different behaviors.
+Some examples of the Decorator Design Pattern in action include:
+
+Adding a border or a background color to a GUI component
+Adding encryption or compression to a stream of data
+Adding logging or performance monitoring to a method or a class
+
+why we need this pattern?  so, answer is to get rid of class explosion.
+
+class explosion:
+
+Class explosion is a problem that occurs in software engineering when the number of classes in a system grows too large and becomes unmanageable. It typically occurs
+in object-oriented programming languages when developers try to create a separate class for each possible variation or combination of attributes or behaviors.
+
+Class explosion can occur when a class hierarchy becomes too deep or too wide, or when there are too many subclasses. This can lead to a complex and difficult-to-maintain
+system, as well as increased development time and cost. It can also lead to performance issues, as the system may become slower and use more memory.
